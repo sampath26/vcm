@@ -26,6 +26,7 @@ public class RegisterServiceImpl implements RegisterService {
 	
 		System.out.println(" ******************************************************** ");
 		
+		System.out.println("registerServiceDAO: "+ registerServiceDAO);
 		registerServiceDAO.createUser(entity);
 		
 		System.out.println("FirstName: " + user.getFirstName() + " LastName: " + user.getLastName());

@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="servlet/createUser" method="POST">
+<form action="createUser" method="POST">
 	<label for="firstName">FirstName: </label>
 	<input type="text" name="firstName"/>
 	<label for="lastName">LastName: </label>
