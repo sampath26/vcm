@@ -32,7 +32,7 @@ public class CreateUserServlet extends HttpServlet {
 	public void init() throws ServletException {
 		// TODO Auto-generated method stub
 		super.init();
-//		Invoker.startup();
+		Invoker.startup();
 	}
 
 
