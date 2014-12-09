@@ -1,0 +1,15 @@
+<div>
+       <fieldset>
+       <legend>List of Users</legend>
+        <table>
+          <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+          </tr>
+          <tr ng-repeat="user in users" ng-click="userSelected($index)" ng-class="{selected: $index==selectedItem}">
+            <td ng-bind="user.firstName"></td>
+            <td ng-bind="user.lastName"></td>
+          </tr>
+        </table>
+        </fieldset>
+      </div>

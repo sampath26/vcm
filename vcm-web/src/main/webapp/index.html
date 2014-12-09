@@ -1,0 +1,22 @@
+<html ng-app="vcmApp">
+<head>
+<script src="scripts/angular130/angular.min.js"></script>
+<script src="scripts/angular130/angular-resource.min.js"></script>
+<script src="scripts/angular130/angular-route.min.js"></script>
+<script src="scripts/vcmApp.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/controllers.js"></script>
+<style type="text/css">
+	.selected {
+			background-color:lightgreen;
+		}
+</style>
+</head>
+
+<body>
+
+      <div><a href="#list">ListUsers</a> | <a href="#create">CreateUser</a></div>
+      <div ng-view></div>
+      
+</body>
+</html>

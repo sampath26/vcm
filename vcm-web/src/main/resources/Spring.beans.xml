@@ -35,5 +35,9 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 		<property name="registerService" ref="registerService" />	
 	</bean>
 	
+<!--  	<bean id="registerServiceWS" class="com.vin.web.vcm.soap.RegisterServiceWS"> -->
+<!-- 		<property name="registerService" ref="registerService" />	 -->
+<!-- 	</bean> -->
+	
  
 </beans>
